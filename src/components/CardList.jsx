@@ -1,11 +1,10 @@
 import React from "react";
 import InstaDP from "../images/instagram_profile_image.png";
-import LinkedinDP from "../images/linkedin_profile_image.png";
 
 export const CardList = () => {
   return (
     <>
-      <div>
+      <div className="">
         <h3 className="text-3xl py-1">Services I offer</h3>
         <p className="text-md py-2 leading-8 text-gray-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia{" "}
@@ -20,7 +19,7 @@ export const CardList = () => {
           quos velit illo? Iusto eius dolorem neque natus ullam aliquid sint.
         </p>
       </div>
-      <div>
+      <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10">
           <img
             src={InstaDP}
@@ -39,7 +38,6 @@ export const CardList = () => {
           <p className="text-gray-800 py-1">Adobe Photoshop</p>
           <p className="text-gray-800 py-1">Adobe Illustrator</p>
         </div>
-
         <div className="text-center shadow-lg p-10 rounded-xl my-10">
           <img
             src={InstaDP}
