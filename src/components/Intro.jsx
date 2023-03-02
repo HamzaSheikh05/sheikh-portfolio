@@ -26,7 +26,7 @@ export const Intro = () => {
         <AiFillLinkedin className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
         <AiFillGithub className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
       </div>
-      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden border-2 border-black md:h-96 md:w-96">
+      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden border-2 border-black md:h-96 md:w-96">
         <img src={DP} alt="" className="object-cover" />
       </div>
     </>
