@@ -2,13 +2,14 @@ import BlogDP from "../assets/projects/blog.png";
 import CalcDP from "../assets/projects/calculator.png";
 import RockPaperDP from "../assets/projects/rockPaper.png";
 import StarMatchDP from "../assets/projects/starMatch.png";
+import WorkImg from "../assets/projects/workImg.jpeg";
 
 export const database = [
   {
     id: 1,
     name: "HTML CSS Blog",
     image: BlogDP,
-    github: "",
+    github: "http://www.google.com",
     live: "",
   },
 
