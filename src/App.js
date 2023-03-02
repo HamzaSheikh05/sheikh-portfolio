@@ -25,21 +25,21 @@ function App() {
         <Header setDarkMode={setDarkMode} darkMode={darkMode} />
       </header>
 
-      <main>
-        <section className="bg-inherit px-10 dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
+      <main className="bg-inherit dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
+        <section className="bg-inherit px-10 dark:bg-inherit">
           <Intro />
         </section>
 
-        <section className="bg-inherit px-10 dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
+        <section className="bg-inherit px-10 dark:bg-inherit">
           <SkillSet />
         </section>
 
-        <section className="bg-inherit px-10 dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
+        <section className="bg-inherit px-10 dark:bg-inherit">
           <Projects />
         </section>
       </main>
 
-      <footer className="bg-inherit dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
+      <footer className="bg-inherit px-10 dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
         <Footer />
       </footer>
     </div>
