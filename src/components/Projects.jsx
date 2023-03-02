@@ -1,5 +1,4 @@
 import { database } from "../database/Database";
-import { CalculatorDP } from "../assets/projects/calculator.png";
 
 export const Projects = () => {
   const projects = database;

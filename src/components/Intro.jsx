@@ -21,9 +21,20 @@ export const Intro = () => {
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
-        <AiFillTwitterCircle className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
-        <AiFillLinkedin className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
-        <AiFillGithub className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+        <a href="https://twitter.com/" target={"_blank"}>
+          <AiFillTwitterCircle className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/hamza-s-287268118/"
+          target={"_blank"}
+        >
+          <AiFillLinkedin className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+        </a>
+
+        <a href="https://github.com/HamzaSheikh05" target={"_blank"}>
+          <AiFillGithub className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+        </a>
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden border-2 border-black md:h-96 md:w-96">
         <img src={DP} alt="" className="object-cover" />
