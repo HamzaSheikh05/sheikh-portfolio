@@ -2,7 +2,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export const Header = () => {
   return (
-    <nav className="py-10 mb-12 flex justify-between">
+    <nav className="py-10 mb-9 flex justify-between">
       <h1 className="text-xl font-burtons">DevelopedByHS</h1>
       <ul className="flex items-center">
         <li>

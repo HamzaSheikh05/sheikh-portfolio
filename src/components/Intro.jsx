@@ -24,7 +24,7 @@ export const Intro = () => {
         <AiFillGithub />
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden border-2 border-black">
-        <img src={DP} alt="" className="object-cover fill-current" />
+        <img src={DP} alt="" className="object-cover" />
       </div>
     </>
   );
