@@ -1,4 +1,3 @@
-import React from "react";
 import LinkedinDP from "../images/linkedin_profile_image.png";
 
 export const Portfolio = () => {

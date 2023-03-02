@@ -1,4 +1,3 @@
-import React from "react";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
@@ -12,9 +11,9 @@ export const SkillSet = () => {
   return (
     <div className="mx-auto py-4 flex flex-col justify-between text-gray-300">
       <div>
-        <p className="text-4xl text-blue-300 font-bold inline border-b-2 border-blue-400 font-burtons">
+        <h1 className="text-4xl text-blue-300 font-bold inline border-b-2 border-blue-400 font-burtons">
           Technical Skills
-        </p>
+        </h1>
         <p className="py-4 text-md font-serif">The Tech I am experienced in</p>
       </div>
 

@@ -1,4 +1,3 @@
-import React from "react";
 import InstaDP from "../images/instagram_profile_image.png";
 
 export const CardList = () => {
