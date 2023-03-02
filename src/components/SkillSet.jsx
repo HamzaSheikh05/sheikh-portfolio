@@ -7,7 +7,6 @@ import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
 
 export const SkillSet = () => {
   return (
@@ -19,7 +18,7 @@ export const SkillSet = () => {
         <p className="py-4">The Tech I am experienced in</p>
       </div>
 
-      <div className="flex justify-evenly items-center text-center p-10">
+      <div className="flex justify-evenly items-center text-center p-10 max-lg:flex max-lg:flex-wrap">
         <div className="bg-transparent shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-6 rounded-md items-center">
           <img className="w-24 mx-auto" src={HTML} alt="HTML icon" />
           <p className="mt-2 font-serif font-semibold">HTML</p>
