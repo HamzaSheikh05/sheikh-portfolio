@@ -3,13 +3,13 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 export const Header = ({ darkMode, setDarkMode }) => {
   return (
     <>
-      <nav className="py-10 flex justify-between dark:text-blue-400">
+      <nav className="py-10 flex justify-between dark:text-white">
         <h1 className="text-xl font-burtons">DevelopedByHS</h1>
         <ul className="flex items-center">
           <li>
             <BsFillMoonStarsFill
               onClick={() => setDarkMode(!darkMode)}
-              className="cursor-pointer text-2xl"
+              className="cursor-pointer text-2xl dark:text-white"
             />
           </li>
           <li>

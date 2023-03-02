@@ -7,13 +7,22 @@ import { Portfolio } from "./components/Portfolio";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
-  console.log(darkMode);
   return (
-    <div className={`App ${darkMode ? "dark" : ""}`}>
-      <header className="px-10 dark:bg-gray-900">
+    <div
+      className={`App ${
+        darkMode
+          ? "dark"
+          : "bg-gradient-to-r from-[#040011] via-[#000011] to-[#040011]"
+      }`}
+    >
+      <header
+        className="px-10 text-blue-400
+      dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]"
+      >
         <Header setDarkMode={setDarkMode} darkMode={darkMode} />
       </header>
-      <main className="bg-white px-10 dark:bg-gray-900">
+
+      <main className="bg-inherit px-10 dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
         <section className="mb-3">
           <Intro />
         </section>
@@ -26,7 +35,10 @@ function App() {
           <Portfolio />
         </section>
       </main>
-      <footer></footer>
+
+      <footer className="bg-inherit dark:bg-gradient-to-r from-[#000428] via-[#000011] to-[#000428]">
+        Copyrights Reserved 2023
+      </footer>
     </div>
   );
 }
