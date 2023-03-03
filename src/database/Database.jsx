@@ -2,6 +2,7 @@ import BlogDP from "../assets/projects/blog.png";
 import CalcDP from "../assets/projects/calculator.png";
 import RockPaperDP from "../assets/projects/rockPaper.png";
 import StarMatchDP from "../assets/projects/starMatch.png";
+import LandingDP from "../assets/projects/landingPage.png";
 
 export const database = [
   {
@@ -34,5 +35,13 @@ export const database = [
     image: StarMatchDP,
     github: "https://github.com/HamzaSheikh05/Star-Match-Game",
     live: "https://hs-star-match-game.netlify.app/",
+  },
+
+  {
+    id: 5,
+    name: "HTML CSS Landing Page",
+    image: LandingDP,
+    github: "https://github.com/HamzaSheikh05/Landing-Page",
+    live: "https://master--spiffy-crostata-7173f7.netlify.app/",
   },
 ];
