@@ -10,10 +10,10 @@ export const Testimonial = () => {
     <section className="p-10 bg-light-mode dark:bg-dark-mode">
       <div className="flex justify-center flex-col">
         <div className="text-center my-3 py-3">
-          <h1 className="text-4xl text-blue-300 font-bold inline border-b-2 border-blue-400 font-burtons">
+          <h1 className="text-4xl text-blue-300 dark:text-blue-200 font-bold inline border-b-2 border-blue-400 dark:border-blue-300 font-burtons">
             Testimonial Section
           </h1>
-          <h3 className="py-4 text-lg text-blue-100 font-serif">
+          <h3 className="py-4 text-lg text-blue-100 dark:text-gray-100 font-serif">
             Hear what others say about me
           </h3>
         </div>
