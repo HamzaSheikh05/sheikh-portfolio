@@ -13,7 +13,7 @@ export const Testimonial = () => {
           <h1 className="text-4xl text-blue-300 dark:text-blue-200 font-bold inline border-b-2 border-blue-400 dark:border-blue-300 font-burtons">
             Testimonial Section
           </h1>
-          <h3 className="py-4 text-lg text-blue-100 dark:text-gray-100 font-serif">
+          <h3 className="py-4 text-xl text-blue-100 dark:text-gray-100 font-serif">
             Hear what others say about me
           </h3>
         </div>
