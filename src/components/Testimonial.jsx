@@ -1,7 +1,11 @@
 import React from "react";
-import Logo from "../assets/aws.png";
+import Logo from "../assets/LinkedIn.png";
+import { linkedInDatabase } from "../database/TestimonialDB";
+import { TestimonyCard } from "./TestimonyCard";
 
 export const Testimonial = () => {
+  const testimonials = linkedInDatabase;
+
   return (
     <section className="p-10 bg-light-mode dark:bg-dark-mode">
       <div className="flex justify-center flex-col">
@@ -14,20 +18,15 @@ export const Testimonial = () => {
           </h3>
         </div>
 
-        <div className="flex justify-evenly flex-wrap my-3 py-3 group">
-          <div className="bg-transparent shadow-lg shadow-blue-800 dark:shadow-blue-500 border border-gray-500 max-w-md cursor-pointer group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 p-8 rounded-xl">
-            <img src={Logo} alt="" className="h-20 mx-auto" />
-            <h3 className="text-3xl my-5 text-blue-400 font-burtons">
-              John Doe
-            </h3>
-            <p className="text-md text-blue-100 leading-normal my-3 font-serif">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium in harum laborum asperiores illo eius dignissimos,
-              voluptas nisi perspiciatis, exercitationem inventore magni
-              deserunt repellat molestiae voluptatum fugiat facere fuga
-              quibusdam!
-            </p>
-          </div>
+        <div className="flex justify-evenly flex-wrap gap-10 my-3 py-3 group">
+          {testimonials.map((item) => (
+            <TestimonyCard
+              key={item.id}
+              name={item.name}
+              image={item.image}
+              recommendation={item.recommendation}
+            />
+          ))}
         </div>
       </div>
     </section>
