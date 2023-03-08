@@ -7,7 +7,7 @@ import DP from "../images/IMGL3768.JPG";
 
 export const Intro = () => {
   return (
-    <section className="px-10 py-3 dark:bg-dark-mode">
+    <section className="px-10 py-3 bg-light-mode dark:bg-dark-mode">
       <div className="text-center my-5">
         <h2 className="text-5xl py-2 text-blue-400 font-medium md:text-6xl font-burtons dark:text-blue-400">
           Hamza Sheikh
