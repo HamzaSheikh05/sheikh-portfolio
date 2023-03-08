@@ -7,6 +7,12 @@ module.exports = {
       fontFamily: {
         burtons: "burtons",
       },
+      backgroundImage: {
+        "light-mode":
+          "linear-gradient(to right, rgba(4, 0, 17, 1), rgba(0, 0, 17, 1), rgba(4, 0, 17, 1))",
+        "dark-mode":
+          "linear-gradient(to right, rgba(0, 4, 40, 1), rgba(0, 0, 17, 1), rgba(0, 4, 40, 1))",
+      },
     },
   },
   plugins: [],
