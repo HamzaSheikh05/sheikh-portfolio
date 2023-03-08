@@ -8,12 +8,11 @@ import CinemaDP from "../assets/projects/cinema.png";
 export const database = [
   {
     id: 1,
-    name: "HTML CSS Blog",
-    image: BlogDP,
-    github: "https://github.com/HamzaSheikh05/Main_Assignment_Two",
-    live: "https://hs-basic-blog.netlify.app/",
+    name: "Cinema Website",
+    image: CinemaDP,
+    github: "https://github.com/HamzaSheikh05/movie-app",
+    live: "https://hs-movie-app.netlify.app/",
   },
-
   {
     id: 2,
     name: "JavaScript Calculator",
@@ -48,9 +47,9 @@ export const database = [
 
   {
     id: 6,
-    name: "Cinema Website",
-    image: CinemaDP,
-    github: "https://github.com/HamzaSheikh05/movie-app",
-    live: "https://hs-movie-app.netlify.app/",
+    name: "HTML CSS Blog",
+    image: BlogDP,
+    github: "https://github.com/HamzaSheikh05/Main_Assignment_Two",
+    live: "https://hs-basic-blog.netlify.app/",
   },
 ];

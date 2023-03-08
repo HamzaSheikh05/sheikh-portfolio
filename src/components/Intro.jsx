@@ -44,7 +44,7 @@ export const Intro = () => {
       <img
         src={DP}
         alt=""
-        className="object-cover mx-auto my-10 relative dark:border-2 dark:border-blue-200 rounded-full w-80 h-80 md:w-96 md:h-96"
+        className="object-cover mx-auto my-10 relative shadow-md dark:border-2 dark:border-blue-200 rounded-full w-80 h-80 md:w-96 md:h-96"
       />
     </section>
   );
