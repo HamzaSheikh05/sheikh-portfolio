@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/LinkedIn.png";
 import { linkedInDatabase } from "../database/TestimonialDB";
 import { TestimonyCard } from "./TestimonyCard";
 
