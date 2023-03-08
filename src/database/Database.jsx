@@ -3,16 +3,16 @@ import CalcDP from "../assets/projects/calculator.png";
 import RockPaperDP from "../assets/projects/rockPaper.png";
 import StarMatchDP from "../assets/projects/starMatch.png";
 import LandingDP from "../assets/projects/landingPage.png";
+import CinemaDP from "../assets/projects/cinema.png";
 
 export const database = [
   {
     id: 1,
-    name: "HTML CSS Blog",
-    image: BlogDP,
-    github: "https://github.com/HamzaSheikh05/Main_Assignment_Two",
-    live: "https://hs-basic-blog.netlify.app/",
+    name: "Cinema Website",
+    image: CinemaDP,
+    github: "https://github.com/HamzaSheikh05/movie-app",
+    live: "https://hs-movie-app.netlify.app/",
   },
-
   {
     id: 2,
     name: "JavaScript Calculator",
@@ -43,5 +43,13 @@ export const database = [
     image: LandingDP,
     github: "https://github.com/HamzaSheikh05/Landing-Page",
     live: "https://master--spiffy-crostata-7173f7.netlify.app/",
+  },
+
+  {
+    id: 6,
+    name: "HTML CSS Blog",
+    image: BlogDP,
+    github: "https://github.com/HamzaSheikh05/Main_Assignment_Two",
+    live: "https://hs-basic-blog.netlify.app/",
   },
 ];

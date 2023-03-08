@@ -7,10 +7,10 @@ export const Projects = () => {
     <section className="px-10 bg-light-mode dark:bg-dark-mode">
       <div className="flex flex-col items-center">
         <div className="flex flex-col py-8 mx-auto">
-          <h1 className="text-4xl py-2 text-blue-300 font-bold inline border-b-2 border-blue-400 font-burtons">
+          <h1 className="text-4xl py-2 text-blue-300 dark:text-blue-200 font-bold inline border-b-2 border-blue-400 dark:border-blue-300 font-burtons">
             Portfolio Section
           </h1>
-          <p className="text-2xl py-2 font-serif text-gray-300">
+          <p className="text-2xl py-2 font-serif text-blue-100 dark:text-gray-100">
             Check out my projects!
           </p>
         </div>
