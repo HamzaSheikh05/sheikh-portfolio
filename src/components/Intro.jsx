@@ -15,14 +15,14 @@ export const Intro = () => {
         <h3 className="text-2xl text-blue-300 py-2 md:text-3xl font-burtons font-semibold dark:text-gray-400">
           Front End Developer
         </h3>
-        <p className="text-md py-5 leading-8 text-gray-300 font-serif md:text-xl">
+        <p className="text-md py-5 leading-8 text-blue-200 font-serif md:text-xl">
           I am a self-taught developer with expertise in JavaScript, React and
           Tailwind.
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 items-center py-3 text-gray-400">
         <a href="https://twitter.com/" target={"_blank"} rel="noreferrer">
-          <AiFillTwitterCircle className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+          <AiFillTwitterCircle className="text-blue-300 hover:shadow-md hover:shadow-blue-500 border-2 border-blue-300 rounded-full p-1" />
         </a>
 
         <a
@@ -30,7 +30,7 @@ export const Intro = () => {
           target={"_blank"}
           rel="noreferrer"
         >
-          <AiFillLinkedin className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+          <AiFillLinkedin className="text-blue-300 hover:shadow-md hover:shadow-blue-500 border-2 border-blue-300 rounded-full p-1" />
         </a>
 
         <a
@@ -38,7 +38,7 @@ export const Intro = () => {
           target={"_blank"}
           rel="noreferrer"
         >
-          <AiFillGithub className="text-blue-300 border-2 border-blue-300 rounded-full p-1" />
+          <AiFillGithub className="text-blue-300 hover:shadow-md hover:shadow-blue-500 border-2 border-blue-300 rounded-full p-1" />
         </a>
       </div>
       <img
