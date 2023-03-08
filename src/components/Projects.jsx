@@ -5,7 +5,7 @@ export const Projects = () => {
 
   return (
     <section className="px-10 dark:bg-dark-mode">
-      <div className="flex flex-col py-4 items-center">
+      <div className="flex flex-col items-center">
         <div className="flex flex-col py-8 mx-auto">
           <h1 className="text-4xl py-2 text-blue-300 font-bold inline border-b-2 border-blue-400 font-burtons">
             Portfolio Section
@@ -13,7 +13,7 @@ export const Projects = () => {
           <p className="text-2xl py-2 text-gray-300">Check out my projects!</p>
         </div>
 
-        <div className="flex justify-evenly flex-wrap gap-14">
+        <div className="flex justify-evenly flex-wrap my-8 gap-14">
           {projects.map((item, index) => (
             <div
               key={index}

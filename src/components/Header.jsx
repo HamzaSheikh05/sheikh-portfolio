@@ -9,7 +9,7 @@ export const Header = ({ darkMode, setDarkMode }) => {
           <li>
             <BsFillMoonStarsFill
               onClick={() => setDarkMode(!darkMode)}
-              className="cursor-pointer text-2xl dark:text-white"
+              className="cursor-pointer text-2xl dark:text-yellow-200"
             />
           </li>
           <li>
