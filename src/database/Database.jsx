@@ -4,17 +4,25 @@ import RockPaperDP from "../assets/projects/rockPaper.png";
 import StarMatchDP from "../assets/projects/starMatch.png";
 import LandingDP from "../assets/projects/landingPage.png";
 import CinemaDP from "../assets/projects/cinema.png";
+import FigmaDP from "../assets/projects/figma-landing.png";
 
 export const database = [
   {
-    id: 1,
+    id: 7,
+    name: "Figma Landing",
+    image: FigmaDP,
+    github: "https://github.com/HamzaSheikh05/figma-replica-one",
+    live: "https://hs-figma-landing.netlify.app/",
+  },
+  {
+    id: 6,
     name: "Cinema Website",
     image: CinemaDP,
     github: "https://github.com/HamzaSheikh05/movie-app",
     live: "https://hs-movie-app.netlify.app/",
   },
   {
-    id: 2,
+    id: 5,
     name: "JavaScript Calculator",
     image: CalcDP,
     github: "https://github.com/HamzaSheikh05/JS-Calculator",
@@ -22,7 +30,7 @@ export const database = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Rock Paper Scissors Game",
     image: RockPaperDP,
     github: "https://github.com/HamzaSheikh05/rock-scissor-paper-ui",
@@ -30,7 +38,7 @@ export const database = [
   },
 
   {
-    id: 4,
+    id: 3,
     name: "Star Match Game",
     image: StarMatchDP,
     github: "https://github.com/HamzaSheikh05/Star-Match-Game",
@@ -38,7 +46,7 @@ export const database = [
   },
 
   {
-    id: 5,
+    id: 2,
     name: "HTML CSS Landing Page",
     image: LandingDP,
     github: "https://github.com/HamzaSheikh05/Landing-Page",
@@ -46,7 +54,7 @@ export const database = [
   },
 
   {
-    id: 6,
+    id: 1,
     name: "HTML CSS Blog",
     image: BlogDP,
     github: "https://github.com/HamzaSheikh05/Main_Assignment_Two",
