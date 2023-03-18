@@ -21,42 +21,42 @@ export const SkillSet = () => {
         </div>
 
         <div className="flex justify-evenly items-center text-center p-10 max-lg:flex max-lg:flex-wrap">
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={HTML} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">HTML</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={CSS} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">CSS</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={JavaScript} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">JavaScript</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">React</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={GitHub} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">Github</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={Node} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">Node</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={Tailwind} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">Tailwind</p>
           </div>
 
-          <div className="bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
+          <div className="my-3 bg-transparent shadow-md shadow-[#040c16] hover:shadow-red-500 dark:hover:shadow-blue-500 hover:shadow-md hover:scale-110 duration-500 p-6 rounded-md items-center">
             <img className="w-24 mx-auto" src={FireBase} alt="HTML icon" />
             <p className="mt-2 font-serif font-semibold">FireBase</p>
           </div>
