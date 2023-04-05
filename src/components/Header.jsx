@@ -31,7 +31,7 @@ export const Header = () => {
           <li>
             <a
               className="bg-gradient-to-r font-burtons from-blue-400 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-              href="https://www.linkedin.com/in/hamza-s-287268118"
+              href="https://drive.google.com/file/d/1LVthugk1daazeo6q1IRyUpJs8GVLpTQs/view?usp=share_link"
               target={"_blank"}
               rel="noreferrer"
             >
