@@ -5,8 +5,15 @@ import StarMatchDP from "../assets/projects/starMatch.png";
 import LandingDP from "../assets/projects/landingPage.png";
 import CinemaDP from "../assets/projects/cinema.png";
 import FigmaDP from "../assets/projects/figma-landing.png";
-
+import FigmaTwo from "../assets/projects/figmaTwo.png";
 export const database = [
+  {
+    id: 8,
+    name: "Figma Gaming Site",
+    image: FigmaTwo,
+    github: "https://github.com/HamzaSheikh05/brainslogic-test",
+    live: "https://hs-figma-two.netlify.app/",
+  },
   {
     id: 7,
     name: "Figma Landing",
